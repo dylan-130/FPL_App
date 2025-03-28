@@ -1,0 +1,43 @@
+/* Hero.css */
+
+.hero-container {
+  width: 100%;
+  height: calc(100vh - 4rem); /* Full screen height minus navbar height */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.hero-button {
+  padding: 0.8rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffff; /* White button */
+  color: #1A237E; /* Dark text */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+}
+
+.hero-button:hover {
+  background-color: #e748f97c; /* Purple-ish hover */
+  color: #ffffff;
+}

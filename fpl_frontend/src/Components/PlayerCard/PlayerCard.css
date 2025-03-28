@@ -1,0 +1,256 @@
+/* PlayerCard.css */
+
+.player-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0px;
+    padding: 1rem;
+    width: 120px;
+  }
+  
+  .player-card div,
+  .player-card span {
+    margin-bottom: 1;
+  }
+  
+  .player-card p {
+    margin: 1;
+    padding: 0;
+    line-height: 0.9;
+  }
+  
+  .circle-icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .sub-on-icon {
+    position: absolute;
+    font-size: 3rem; /* Adjust size */
+    color: green; /* Set arrow color to green */
+    transform: rotate(180deg); /* No rotation */
+    left: 25px; /* Place to the right of the player icon */
+    top: -15px;
+  }
+  
+  .sub-off-icon {
+    position: absolute;
+    font-size: 3rem; /* Adjust size */
+    color: red; /* Set arrow color to red */
+    transform: rotate(0deg); /* Rotate for visual distinction */
+    left: 45px; /* Place to the right of the player icon */
+    top: 18px;
+  }
+
+/* Style for Captain Icon */
+.captain-icon {
+  position: absolute;
+  font-size: 1rem; /* Adjust the size of the "C" */
+  font-weight: bold; /* Make it bold */
+  color: gold; /* Gold color to highlight the captain */
+  margin-right: 0.2rem; /* Add spacing if needed */
+  top: 5px; /* Adjust based on your design */
+  right: 45px
+}
+
+/* Style for Vice-Captain Icon */
+.vice-captain-icon {
+  position: absolute;
+  font-size: 1rem; /* Adjust the size of the "V" */
+  font-weight: bold; /* Make it bold */
+  color: silver; /* Silver color to highlight the vice-captain */
+  margin-left: 0.2rem; /* Add spacing if needed */
+  top: 5px; /* Adjust based on your design */
+  right: 45px
+}
+
+@media (max-width: 768px) {
+  /* Player card remains the same */
+  .player-card {
+    width: 120px;
+    padding: 1rem;
+  }
+
+  /* Circle Icon */
+  .circle-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+
+  /* Sub-On Icon */
+  .sub-on-icon {
+    position: absolute;
+    font-size: 2.5rem; /* Keep the same size */
+    color: green;
+    left: 25px; /* Place to the left of the circle */
+    top: -8%; /* Vertically centered with the circle */
+  }
+
+  /* Sub-Off Icon */
+  .sub-off-icon {
+    position: absolute;
+    font-size: 2.5rem; /* Keep the same size */
+    color: red;
+    left: 40px; /* Place to the right of the circle */
+    top: 14%; /* Vertically centered with the circle */
+  }
+
+  /* Captain Icon */
+  .captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: gold;
+    top: 0; /* Slightly above the circle */
+    right: 10%; /* Align closer to the circle */
+  }
+
+  /* Vice-Captain Icon */
+  .vice-captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: silver;
+    top: 0; /* Slightly above the circle */
+    left: 70%; /* Align closer to the circle */
+  }
+}
+
+@media (max-width: 650px) {
+  /* Player card remains the same */
+  .player-card {
+    width: 120px;
+    padding: 1rem;
+  }
+
+  /* Circle Icon */
+  .circle-icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+
+  /* Sub-On Icon */
+  .sub-on-icon {
+    position: absolute;
+    font-size: 2.5rem; /* Keep the same size */
+    color: green;
+    left: 4px; /* Place to the left of the circle */
+    top: -8%; /* Vertically centered with the circle */
+  }
+
+  /* Sub-Off Icon */
+  .sub-off-icon {
+    position: absolute;
+    font-size: 2.5rem; /* Keep the same size */
+    color: red;
+    left: 21px; /* Place to the right of the circle */
+    top: 15%; /* Vertically centered with the circle */
+  }
+
+  /* Captain Icon */
+  .captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: gold;
+    top: 0; /* Slightly above the circle */
+    right: 10%; /* Align closer to the circle */
+  }
+
+  /* Vice-Captain Icon */
+  .vice-captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: silver;
+    top: 0; /* Slightly above the circle */
+    left: 70%; /* Align closer to the circle */
+  }
+}
+
+@media (max-width: 430px) {
+
+  /* Sub-On Icon */
+  .sub-on-icon {
+    position: absolute;
+    font-size: 1.8rem; /* Keep the same size */
+    color: green;
+    left: 5px; /* Place to the left of the circle */
+    top: 0%; /* Vertically centered with the circle */
+  }
+
+  /* Sub-Off Icon */
+  .sub-off-icon {
+    position: absolute;
+    font-size: 1.8rem; /* Keep the same size */
+    color: red;
+    left: 16px; /* Place to the right of the circle */
+    top: 18%; /* Vertically centered with the circle */
+  }
+
+  /* Captain Icon */
+  .captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: gold;
+    top: 0; /* Slightly above the circle */
+    right: 10%; /* Align closer to the circle */
+  }
+
+  /* Vice-Captain Icon */
+  .vice-captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: silver;
+    top: 0; /* Slightly above the circle */
+    left: 10%; /* Align closer to the circle */
+  }
+}
+
+@media (max-width: 430px) {
+
+  /* Sub-On Icon */
+  .sub-on-icon {
+    position: absolute;
+    font-size: 1.8rem; /* Keep the same size */
+    color: green;
+    left: 2px; /* Place to the left of the circle */
+    top: 0%; /* Vertically centered with the circle */
+  }
+
+  /* Sub-Off Icon */
+  .sub-off-icon {
+    position: absolute;
+    font-size: 1.8rem; /* Keep the same size */
+    color: red;
+    left: 16px; /* Place to the right of the circle */
+    top: 18%; /* Vertically centered with the circle */
+  }
+
+  /* Captain Icon */
+  .captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: gold;
+    top: 0; /* Slightly above the circle */
+    right: 0%; /* Align closer to the circle */
+  }
+
+  /* Vice-Captain Icon */
+  .vice-captain-icon {
+    position: absolute;
+    font-size: 1rem; /* Keep the same size */
+    color: silver;
+    top: 0; /* Slightly above the circle */
+    left: 65%; /* Align closer to the circle */
+  }
+}

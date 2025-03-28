@@ -1,0 +1,31 @@
+.custom-button {
+    padding: 0.8rem 1.6rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #6a1b9a; /* Purple default */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+  }
+  
+  .custom-button:hover {
+    background-color: #e748f97c; /* Lighter purple on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+  }
+  
+  .custom-button:active {
+    transform: scale(0.90); /* Shrink on click */
+  }
+
+  /* In Connect.css */
+.bottom-right-buttons .confirm-button {
+    background-color: #4CAF50; /* Save button color */
+    color: white
+  }
+  
+  .bottom-right-buttons .cancel-button {
+    background-color: #f44336; /* Cancel button color */
+    color: white
+  }

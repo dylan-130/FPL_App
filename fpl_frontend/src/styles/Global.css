@@ -1,0 +1,15 @@
+/* Reset base styles and add your gradient to the entire page */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* Single gradient across the whole page */
+  background: linear-gradient(90deg, #1A237E, #6A1B9A);
+  color: white;
+  min-height: 100vh;
+  overflow-x: hidden; /* Avoid horizontal scrollbar */
+}
+
+section {
+  margin-bottom: 1.4rem;
+}
